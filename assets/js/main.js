@@ -1,0 +1,1 @@
+const t=document.querySelector('.menu-toggle'),n=document.querySelector('.main-nav');if(t&&n)t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});document.querySelectorAll('[data-faq]').forEach(x=>x.addEventListener('click',()=>x.parentElement.classList.toggle('open')));
