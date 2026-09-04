@@ -1,8 +1,10 @@
 # Ally CRM Website
 
 Public website foundation for Ally CRM.
-- Public site: allycrm.in
-- Future CRM application: allycrm.in/app
+
+- Public site: `allycrm.in`
+- Future CRM application: `allycrm.in/app`
+- Industry solutions live inside Ally CRM; Real Estate is the first specialized solution.
 - Managed-access model: no public signup, free trial, or automatic account creation.
 
-This repository contains the public website and documentation foundation. The CRM application is intentionally reserved for a separate implementation under /app.
+This repository contains the public website and documentation foundation. The CRM application is intentionally reserved for a separate implementation under `/app`.
