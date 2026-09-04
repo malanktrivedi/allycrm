@@ -1,1 +1,13 @@
-const t=document.querySelector('.menu-toggle'),n=document.querySelector('.main-nav');if(t&&n)t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});document.querySelectorAll('[data-faq]').forEach(x=>x.addEventListener('click',()=>x.parentElement.classList.toggle('open')));
+document.addEventListener('DOMContentLoaded',function(){
+  const toggle=document.querySelector('.menu-toggle');
+  const nav=document.querySelector('.main-nav');
+  if(toggle&&nav){
+    toggle.addEventListener('click',function(){
+      const open=nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded',open?'true':'false');
+    });
+  }
+  document.querySelectorAll('.faq-q,[data-faq]').forEach(function(q){
+    q.addEventListener('click',function(){q.parentElement.classList.toggle('open');});
+  });
+});
