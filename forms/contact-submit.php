@@ -1,1 +1,0 @@
-<?php header('Location: /contact.php?submitted=1'); exit; ?>

@@ -1,1 +1,0 @@
-<?php header('Location: /startup-program.php?submitted=1'); exit; ?>
