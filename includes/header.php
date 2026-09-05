@@ -11,9 +11,10 @@ $active=$active??'platform';
 <title><?=htmlspecialchars($pageTitle)?></title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/compat.css">
+<link rel="stylesheet" href="/assets/css/nex-theme.css">
 <?php if(stripos($pageTitle,'Command Center')!==false): ?><link rel="stylesheet" href="/assets/css/command-center.css"><?php endif; ?>
 </head>
 <body>
